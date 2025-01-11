@@ -1,58 +1,58 @@
 # 🚀 Selenium-Python-Automation
 Automated web testing with Selenium WebDriver and Python, featuring browser navigation, test validation, and login automation.🧑‍💻
+## ✨ Features
+- **🖥️ BrowserCommands.py**: Basic browser navigation (back, forward, refresh).
+- **🔍 FirstTest.py**: Simple test to verify the page title.
+- **🔑 Login.py**: Automates login on a sample website.
 
-## Project Files
+---
 
-### 1. `BrowserCommands.py`
-- Demonstrates browser navigation commands:
-  - Open a webpage
-  - Maximize window
-  - Navigate back and forth
-  - Refresh the page
-  - Close the browser
+## 📋 Prerequisites
+- Python 3.x 
+- Selenium package 
+- Firefox browser and GeckoDriver 
 
-### 2. `FirstTest.py`
-- A simple test script with:
-  - Opening the Selenium website
-  - Maximizing the window
-  - Asserting the page title
-  - Locating elements (XPath example)
+---
 
-### 3. `Login.py`
-- Automates a login process:
-  - Navigate to SauceDemo login page
-  - Enter username and password
-  - Click login button
-  - Verify successful login
-
-## Requirements
-
-Make sure you have:
-- Python 3.x
-- Selenium
-- A web driver for your browser (e.g., GeckoDriver for Firefox)
-
-Install dependencies:
-```bash
-pip install -r requirements.txt
-```
-
-## How to Run
-
-1. Ensure the web driver is installed and added to your PATH.
-2. Run the scripts:
+## 🛠️ Installation
+1. Clone the repository:
    ```bash
-   python BrowserCommands.py
-   python FirstTest.py
-   python Login.py
+   git clone https://github.com/yourusername/selenium-webdriver-python.git
+   cd selenium-webdriver-python
    ```
 
-## Notes
-- Update `username` and `password` in `Login.py` as needed.
-- Ensure the web driver matches your browser version.
+2. Install Selenium:
+   ```bash
+   pip install selenium
+   ```
 
-## Contributing
-Feel free to fork and create pull requests for improvements or new features! 🎉
+3. Download GeckoDriver:
+   - Visit [GeckoDriver Releases](https://github.com/mozilla/geckodriver/releases)
+   - Add GeckoDriver to your PATH
 
-## License
-Licensed under the MIT License. 📝
+---
+
+## 🚴‍♂️ Quick Start
+1. Run `BrowserCommands.py`:
+   ```bash
+   python BrowserCommands.py
+   ```
+   🌀 Performs navigation actions like back, forward, and refresh.
+
+2. Run `FirstTest.py`:
+   ```bash
+   python FirstTest.py
+   ```
+   ✅ Verifies the page title of Selenium's official website.
+
+3. Run `Login.py`:
+   ```bash
+   python Login.py
+   ```
+   🔓 Automates login for a sample website.
+
+---
+
+## 📝 Notes
+- Make sure all dependencies are installed.
+- Update URLs and credentials in `Login.py` as needed.
