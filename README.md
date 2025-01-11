@@ -1,8 +1,5 @@
-# Selenium-Python-Automation
-Automated web testing with Selenium WebDriver and Python, featuring browser navigation, test validation, and login automation.
-# 🚀 Selenium Webdriver with Python Testing Automate
-
-This repository showcases examples of Selenium automation scripts written in Python. The scripts cover basic web automation tasks like navigation, testing, and login functionality. Perfect for beginners in web automation! 🧑‍💻
+# 🚀 Selenium-Python-Automation
+Automated web testing with Selenium WebDriver and Python, featuring browser navigation, test validation, and login automation.🧑‍💻
 
 ## Project Files
 
