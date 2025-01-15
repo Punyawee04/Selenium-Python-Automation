@@ -13,7 +13,12 @@ Automated web testing with Selenium WebDriver and Python, featuring browser navi
 ### `Login.py` 🔐
 - Automates login for a sample website.
 - Fills in username and password fields, clicks the login button, and checks for success.
-
+### `ViewportTest.py` 🌐
+Tests website responsiveness across multiple viewport sizes:
+- Resizes the browser window to different screen dimensions.
+### `CheckboxTest.py` ☑️
+Interacts with multiple checkboxes on a webpage:
+- Scrolls the page to make checkboxes visible.
 ---
 
 ## 📋 Prerequisites
